@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    flex-direction: column;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+}
+
+ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
