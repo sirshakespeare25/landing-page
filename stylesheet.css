@@ -1,14 +1,26 @@
 body {
     display: flex;
     flex-direction: column;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 400px;
+    padding-right: 400px;
 }
 
 .header {
     display: flex;
     align-items: center;
-    justify-content: space-between;   
+    justify-content: space-between;
+    height: 52px;   
+}
+
+.uppertop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img {
+    padding: 75px;
+    background: gray;
 }
 
 ul{
@@ -16,6 +28,7 @@ ul{
     margin: 0;
     padding: 0;
     list-style: none;
+    gap: 16px;
 }
 
 a {
