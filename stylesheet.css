@@ -13,12 +13,24 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #1F2937;
 }
 
 .uppertop {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #1F2937;
+    flex: 1;
+}
+
+.centertop, .centerbottom, .bottom {
+    display: flex;
+    flex: 1;
+}
+
+.centerbottom {
+    background-color: #e5e7eb;
 }
 
 .img {
