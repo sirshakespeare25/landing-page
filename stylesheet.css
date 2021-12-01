@@ -37,7 +37,11 @@ body {
 }
 
 .button2 {
-
+    color: #E5E7EB;
+    background-color: #3882F6;
+    border-radius: 6px;
+    border-color: #E5E7EB;
+    border-style: solid;
 }
 
 .title2 {
@@ -144,4 +148,8 @@ a {
     border-radius: 8px;
     padding: 12px 30px;
     gap: 30px;
+}
+
+.button2-cont {
+    margin: auto;
 }
