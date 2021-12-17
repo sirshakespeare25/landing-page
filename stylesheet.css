@@ -2,8 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    min-height: 100vh;
-    margin: 0;
+    margin: 0px;
 }
 
 .header {
@@ -13,6 +12,13 @@ body {
     background-color: #1F2937;
     color: #F9FAF8;
     font-size: 24px;
+}
+
+.header, .footer {
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .title {
@@ -80,6 +86,11 @@ body {
     flex: 1;
 }
 
+.centertop, .centerbottom, .bottom, .uppertop {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
 .bottom {
     justify-content: center;
     align-items: center;
@@ -90,8 +101,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 200px;
-    padding-right: 200px;
 }
 
 .img {
