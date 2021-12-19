@@ -6,19 +6,26 @@ body {
 }
 
 .header {
-    display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #1F2937;
-    color: #F9FAF8;
     font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .header, .footer {
+    display: flex;
     padding-left: 200px;
     padding-right: 200px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.footer {
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .title {
@@ -48,12 +55,14 @@ body {
     border-radius: 6px;
     border-color: #E5E7EB;
     border-style: solid;
+    padding: 7px 20px;
 }
 
 .title2 {
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
+    padding-bottom: 50px;
 }
 
 .quote {
@@ -78,8 +87,19 @@ body {
     align-items: center;
     justify-content: space-evenly;
     background-color: #1F2937;
-    flex: 1;    
+    flex: 1;   
+    padding-bottom: 75px;
+    padding-top: 75px;
+    gap: 10px; 
 }
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
 
 .centertop, .centerbottom, .bottom {
     display: flex;
@@ -91,9 +111,16 @@ body {
     padding-right: 200px;
 }
 
+.centertop {
+    padding-top: 30px;
+    padding-bottom: 90px;
+}
+
 .bottom {
     justify-content: center;
     align-items: center;
+    padding-top: 90px;
+    padding-bottom: 90px;
 }
 
 .centerbottom {
@@ -101,6 +128,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 90px;
+    padding-top: 90px;
 }
 
 .img {
@@ -142,6 +171,10 @@ a {
     border-radius: 10px;
 }
 
+.wintext {
+    padding-top: 10px;
+}
+
 .content {
     display: flex;
     flex-direction: column;
@@ -155,8 +188,9 @@ a {
     align-content: center;
     background-color: #3882F6;
     border-radius: 8px;
-    padding: 12px 30px;
+    padding: 40px 90px;
     gap: 30px;
+    color: #E5E7EB;
 }
 
 .button2-cont {
