@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     margin: 0px;
+    font-family: Helvetica;
 }
 
 .header {
@@ -20,6 +21,14 @@ body {
 
     background-color: #1F2937;
     color: #F9FAF8;
+}
+
+.actionhd{
+    font-size: 24px;    
+}
+
+.actiontxt{
+    font-size: 18px;
 }
 
 .footer {
@@ -74,6 +83,7 @@ body {
 
 .quote2 {
     text-align: right;
+    font-size: 24px;
 }
 
 .wintext {
